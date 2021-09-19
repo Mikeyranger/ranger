@@ -1,0 +1,193 @@
+-- Gui to Lua
+
+
+-- Version: 3.2
+
+
+
+-- Instances:
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+
+
+local main = Instance.new("Frame")
+
+
+local TextLabel = Instance.new("TextLabel")
+
+
+local UICorner = Instance.new("UICorner")
+
+
+local UICorner_2 = Instance.new("UICorner")
+
+
+local toh15 = Instance.new("TextButton")
+
+
+local UICorner_3 = Instance.new("UICorner")
+
+
+local toh13 = Instance.new("TextButton")
+
+
+local UICorner_4 = Instance.new("UICorner")
+
+
+
+--Properties:
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+
+main.Name = "main"
+
+
+main.Parent = ScreenGui
+
+
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+main.Position = UDim2.new(0.320211947, 0, 0.258641243, 0)
+
+
+main.Size = UDim2.new(0, 423, 0, 264)
+
+
+main.Active = true
+
+
+main.Draggable = true
+
+
+
+TextLabel.Parent = main
+
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 110, 255)
+
+
+TextLabel.Size = UDim2.new(0, 423, 0, 44)
+
+
+TextLabel.Font = Enum.Font.SourceSans
+
+
+TextLabel.Text = "Tower of life | Hacks | Baconisthebestmatter"
+
+
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TextLabel.TextSize = 14.000
+
+
+
+UICorner.Parent = TextLabel
+
+
+
+UICorner_2.Parent = main
+
+
+
+toh15.Name = "toh 1.5"
+
+
+toh15.Parent = main
+
+
+toh15.BackgroundColor3 = Color3.fromRGB(17, 255, 0)
+
+
+toh15.Position = UDim2.new(0.0472813249, 0, 0.38257575, 0)
+
+
+toh15.Size = UDim2.new(0, 178, 0, 84)
+
+
+toh15.Font = Enum.Font.PermanentMarker
+
+
+toh15.Text = "Toh 1.5"
+
+
+toh15.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+toh15.TextScaled = true
+
+
+toh15.TextSize = 14.000
+
+
+toh15.TextWrapped = true
+
+
+toh15.MouseButton1Down:connect(function()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+
+
+end)
+
+
+
+UICorner_3.Parent = toh15
+
+
+
+toh13.Name = "toh 1.3"
+
+
+toh13.Parent = main
+
+
+toh13.BackgroundColor3 = Color3.fromRGB(42, 255, 49)
+
+
+toh13.Position = UDim2.new(0.546099305, 0, 0.38257575, 0)
+
+
+toh13.Size = UDim2.new(0, 178, 0, 84)
+
+
+toh13.Font = Enum.Font.PermanentMarker
+
+
+toh13.Text = "Toh 1.3"
+
+
+toh13.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+toh13.TextScaled = true
+
+
+toh13.TextSize = 14.000
+
+
+toh13.TextWrapped = true
+
+
+toh13.MouseButton1Down:connect(function()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
+
+
+end)
+
+
+
+UICorner_4.Parent = toh13
